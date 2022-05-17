@@ -54,53 +54,61 @@ const ClienteleDiversification = () => {
                   {/* FancyTitle */}
                   {/* Categories List */}
                   <div className="categories categories-view1">
-                    <ul className="row">
+                    <ul className="row d-flex justify-content-center">
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="fas fa-biohazard" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(3 Open Vacancies)</small>
+                        <i class="fa-solid fa-car"></i>
+                          <a href="#">Automobile</a>
+                          <small>Lorem, ipsum dolor sit amet consectetur adipisicing.</small>
                           <span>01</span>
                         </div>
                       </li>
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="fas fa-broadcast-tower" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(2 Open Vacancies)</small>
+                          <i class="fa-solid fa-gas-pump"></i>
+                          <a href="#">Auto Components</a>
+                          <small>Lorem, ipsum dolor sit amet consectetur adipisicing.</small>
                           <span>02</span>
                         </div>
                       </li>
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="far fa-chart-bar" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(13 Open Vacancies)</small>
+                          <i class="fa-solid fa-shirt"></i>
+                          <a href="#">Apparels</a>
+                          <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
                           <span>03</span>
                         </div>
                       </li>
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="fab fa-codepen" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(22 Open Vacancies)</small>
+                          <i class="fa-solid fa-champagne-glasses"></i>
+                          <a href="#">Alcohol</a>
+                          <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
                           <span>04</span>
                         </div>
                       </li>
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="fas fa-dna" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(18 Open Vacancies)</small>
+                          <i class="fa-solid fa-plug-circle-bolt"></i>
+                          <a href="#">Architectural Lightning</a>
+                          <small>Lorem ipsum dolor sit amet, consectetur adipisicing.</small>
                           <span>05</span>
                         </div>
                       </li>
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="fas fa-layer-group" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(4 Open Vacancies)</small>
+                          <i class="fa-solid fa-helmet-safety"></i>
+                          <a href="#">Engineering & Heavy Fabrication</a>
+                          <small>Lorem ipsum dolor, sit amet consectetur adipisicing.</small>
                           <span>06</span>
+                        </div>
+                      </li>
+                      <li className="col-md-4">
+                        <div className="categories-view1-wrap">
+                          <i class="fa-solid fa-user"></i>
+                          <a href="#">Spun & Blended Yarns</a>
+                          <small>Lorem ipsum dolor, sit amet consectetur adipisicing.</small>
+                          <span>07</span>
                         </div>
                       </li>
                     </ul>
@@ -118,53 +126,85 @@ const ClienteleDiversification = () => {
                   {/* FancyTitle */}
                   {/* Categories List */}
                   <div className="categories categories-view1">
-                    <ul className="row">
+                    <ul className="row d-flex justify-content-center">
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="fas fa-biohazard" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(3 Open Vacancies)</small>
+                          <i class="fa-solid fa-ship"></i>
+                          <a href="#">Courier / Cargo Aggregators</a>
+                          <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
                           <span>01</span>
                         </div>
                       </li>
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="fas fa-broadcast-tower" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(2 Open Vacancies)</small>
+                          <i class="fa-solid fa-apple-whole"></i>
+                          <a href="#">Food & Beverages</a>
+                          <small>Lorem, ipsum dolor sit amet consectetur adipisicing.</small>
                           <span>02</span>
                         </div>
                       </li>
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="far fa-chart-bar" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(13 Open Vacancies)</small>
+                          <i class="fa-solid fa-briefcase-medical"></i>
+                          <a href="#">Health Service Aggregators</a>
+                          <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
                           <span>03</span>
                         </div>
                       </li>
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="fab fa-codepen" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(22 Open Vacancies)</small>
+                          <i class="fa-brands fa-internet-explorer"></i>
+                          <a href="#">Internet Service Providers</a>
+                          <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
                           <span>04</span>
                         </div>
                       </li>
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="fas fa-dna" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(18 Open Vacancies)</small>
+                          <i class="fa-solid fa-circle-info"></i>
+                          <a href="#">Insurance TPA</a>
+                          <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
                           <span>05</span>
                         </div>
                       </li>
                       <li className="col-md-4">
                         <div className="categories-view1-wrap">
-                          <i className="fas fa-layer-group" />
-                          <a href="#">Lorem Ipsum</a>
-                          <small>(4 Open Vacancies)</small>
+                          <i class="fa-solid fa-users"></i>
+                          <a href="#">Insurance Advisory & Broking</a>
+                          <small>Lorem ipsum dolor sit, amet consectetur adipisicing.</small>
                           <span>06</span>
+                        </div>
+                      </li>
+                      <li className="col-md-4">
+                        <div className="categories-view1-wrap">
+                          <i class="fa-solid fa-hand-holding-medical"></i>
+                          <a href="#">Medical Tourism</a>
+                          <small>Lorem ipsum dolor sit, amet consectetur adipisicing.</small>
+                          <span>07</span>
+                        </div>
+                      </li>
+                      <li className="col-md-4">
+                        <div className="categories-view1-wrap">
+                        <i class="fa-solid fa-hands-bubbles"></i>
+                          <a href="#">Online Laundry</a>
+                          <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
+                          <span>08</span>
+                        </div>
+                      </li>
+                      <li className="col-md-4">
+                        <div className="categories-view1-wrap">
+                        <i class="fa-solid fa-computer"></i>
+                          <a href="#">Software Development</a>
+                          <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
+                          <span>09</span>
+                        </div>
+                      </li>
+                      <li className="col-md-4">
+                        <div className="categories-view1-wrap">
+                        <i class="fa-brands fa-windows"></i>
+                          <a href="#">Systems Integrator</a>
+                          <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
+                          <span>10</span>
                         </div>
                       </li>
                     </ul>
