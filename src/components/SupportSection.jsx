@@ -8,7 +8,7 @@ const SupportSection = () => {
       <div className="section-image d-flex align-items-center" >
         <div className="container-fluid SupportSection_max_width">
           <div className="row">
-            <div className="col-lg-6 col-md-12 d-flex align-items-center">
+            <div className="col-lg-6 col-md-12 d-flex align-items-center display-res">
               <div className="container pb-4">
                 <div className="mockup mockup-macbook loaded opened">
                   <div className="laptop_bg_text">

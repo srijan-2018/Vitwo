@@ -1577,7 +1577,7 @@ ul {
 }
 @media screen and (max-width: 576px){
   .technologiesPlatform_image h2{
-    font-size: 24px;
+    font-size: 18px;
   }
   .technologiesPlatform_image{
     padding: 0px;
@@ -2043,6 +2043,13 @@ ul {
   width: 85%;
   margin: auto;
 }
+@media screen and (max-width : 576px) {
+  .Counter_max_width1{
+    width: 100%;
+    margin: auto;
+  }
+}
+
 .boxed-area {
   box-shadow: 0 1px 4px rgb(0 0 0 / 15%);
 }
@@ -2151,7 +2158,7 @@ ul {
   .value h4{
     font-weight: 600;
     color: var(--darkBlue);
-    font-size: 24px;
+    font-size: 18px;
   }
   .value span{
     color: #03BFCB;
@@ -4100,6 +4107,7 @@ hr.space-xs {
   background-position: center center;
   background-repeat: no-repeat;
   padding: 100px;
+  width: 100vw;
   overflow: hidden;
 }
 
@@ -4258,6 +4266,14 @@ hr.space-xs {
   }
 }
 
+@media screen and (max-width : 576px) {
+  #container h1{
+    font-size: 24px;
+  }
+  .display-res{
+    display: none !important;
+  }
+}
 
 
 

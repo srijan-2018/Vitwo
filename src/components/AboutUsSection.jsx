@@ -37,7 +37,7 @@ const AboutUsSection = () => {
                     <button> Our Services </button>
                   </div>
                 </div>
-                <div className="col-12 col-lg-6 pt-5 pt-0">
+                <div className="col-12 col-lg-6 pt-5 pt-0 display-res">
                   <div className="quarter one1">
                     <div className="one">
                       <p>DRIVE</p>

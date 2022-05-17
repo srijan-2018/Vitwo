@@ -44,7 +44,7 @@ const ClienteleDiversification = () => {
             <span className="light-transparent" />
             <div className="container padding_top_bottom_100">
               <div className="row">
-                <div className="col-md-12 mb-5" data-aos="fade-left">
+                <div className="col-md-12 mb-5">
                   {/* FancyTitle */}
                   <div className="text-center">
                     <h2 className="heading_style"><span className="divider">Manufacturing Industries</span></h2>
@@ -55,7 +55,7 @@ const ClienteleDiversification = () => {
                   {/* Categories List */}
                   <div className="categories categories-view1">
                     <ul className="row d-flex justify-content-center">
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                         <i class="fa-solid fa-car"></i>
                           <a href="#">Automobile</a>
@@ -63,7 +63,7 @@ const ClienteleDiversification = () => {
                           <span>01</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-gas-pump"></i>
                           <a href="#">Auto Components</a>
@@ -71,7 +71,7 @@ const ClienteleDiversification = () => {
                           <span>02</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-shirt"></i>
                           <a href="#">Apparels</a>
@@ -79,7 +79,7 @@ const ClienteleDiversification = () => {
                           <span>03</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-champagne-glasses"></i>
                           <a href="#">Alcohol</a>
@@ -87,7 +87,7 @@ const ClienteleDiversification = () => {
                           <span>04</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-plug-circle-bolt"></i>
                           <a href="#">Architectural Lightning</a>
@@ -95,7 +95,7 @@ const ClienteleDiversification = () => {
                           <span>05</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-helmet-safety"></i>
                           <a href="#">Engineering & Heavy Fabrication</a>
@@ -103,7 +103,7 @@ const ClienteleDiversification = () => {
                           <span>06</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-user"></i>
                           <a href="#">Spun & Blended Yarns</a>
@@ -117,7 +117,7 @@ const ClienteleDiversification = () => {
                   <div className="more-spacer" />
                   <div className="main-load-btn"> <a href="#">Browse All Categories</a> </div>
                 </div>
-                <div className="col-md-12" data-aos="fade-right">
+                <div className="col-md-12">
                   {/* FancyTitle */}
                   <div className="mb-lg-5 mb-5 text-center">
                     <h2 className="heading_style"><span className="divider">Service Industries</span></h2>
@@ -127,7 +127,7 @@ const ClienteleDiversification = () => {
                   {/* Categories List */}
                   <div className="categories categories-view1">
                     <ul className="row d-flex justify-content-center">
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-ship"></i>
                           <a href="#">Courier / Cargo Aggregators</a>
@@ -135,7 +135,7 @@ const ClienteleDiversification = () => {
                           <span>01</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-apple-whole"></i>
                           <a href="#">Food & Beverages</a>
@@ -143,7 +143,7 @@ const ClienteleDiversification = () => {
                           <span>02</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-briefcase-medical"></i>
                           <a href="#">Health Service Aggregators</a>
@@ -151,7 +151,7 @@ const ClienteleDiversification = () => {
                           <span>03</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-brands fa-internet-explorer"></i>
                           <a href="#">Internet Service Providers</a>
@@ -159,7 +159,7 @@ const ClienteleDiversification = () => {
                           <span>04</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-circle-info"></i>
                           <a href="#">Insurance TPA</a>
@@ -167,7 +167,7 @@ const ClienteleDiversification = () => {
                           <span>05</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-users"></i>
                           <a href="#">Insurance Advisory & Broking</a>
@@ -175,7 +175,7 @@ const ClienteleDiversification = () => {
                           <span>06</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                           <i class="fa-solid fa-hand-holding-medical"></i>
                           <a href="#">Medical Tourism</a>
@@ -183,7 +183,7 @@ const ClienteleDiversification = () => {
                           <span>07</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                         <i class="fa-solid fa-hands-bubbles"></i>
                           <a href="#">Online Laundry</a>
@@ -191,7 +191,7 @@ const ClienteleDiversification = () => {
                           <span>08</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                         <i class="fa-solid fa-computer"></i>
                           <a href="#">Software Development</a>
@@ -199,7 +199,7 @@ const ClienteleDiversification = () => {
                           <span>09</span>
                         </div>
                       </li>
-                      <li className="col-md-4">
+                      <li className="col-md-4" data-aos="zoom-in">
                         <div className="categories-view1-wrap">
                         <i class="fa-brands fa-windows"></i>
                           <a href="#">Systems Integrator</a>
