@@ -227,8 +227,9 @@ ul {
   /* background-image: url('./assets/images/hero_bg.jpg'); */
   /* background-size: cover; */
   /* padding-top: 30px; */
-  padding: 100px;
+  padding: 0px 0px 0px 100px;
   background-color: ghostwhite;
+
 }
 
 @media screen and (max-width : 768px) {
@@ -559,7 +560,7 @@ ul {
 
 /* ===== Features card style start ===== */
 .overflow_top{
-  transform: translateY(-85px);
+  transform: translateY(-40px);
 }
 @media only screen and (max-width: 999px) {
   .overflow_top{
@@ -799,6 +800,9 @@ ul {
   top: 0;
   left: 0;
 }
+.video_width{
+  width: 100%;
+}
 .screen-wrapper {
   transform: translateX(-12px) scale(var(--trickyScale));
   transform-origin: top left;
@@ -807,6 +811,11 @@ ul {
 @media screen and (max-width: 1380px) {
   .screen-wrapper {
     min-height: 50vw;
+  }
+}
+@media screen and (max-width: 999px) {
+  .video_width{
+    padding-top: 50px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -840,7 +849,6 @@ ul {
     right: 10%;
   }
 } 
-
 
 .photo_swipe{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

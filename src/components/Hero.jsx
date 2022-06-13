@@ -1,5 +1,5 @@
 import React from 'react';
-import hero_ob from '../assets/images/bg-video.gif';
+import hero_ob from '../assets/images/V2-Web.m4v';
 
 const Hero = () => {
     return (
@@ -23,12 +23,10 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-12 col-lg-6">
-                        <div className="">
-                            {/* <video src={hero_ob} autoPlay loop muted /> */}
-                                {/* <source  type="video/mp4" /> */}
-                            {/* </video> */}
-                            <img src={hero_ob} className="w-100" alt="" />
-                        </div>
+                        <video src={hero_ob} autoPlay loop muted className='video_width'>
+                            <source  type="video/mp4" />
+                        </video>
+                        {/* <img src={hero_ob} className="w-100" alt=""/> */}
                     </div>
                 </div>
             </div>
