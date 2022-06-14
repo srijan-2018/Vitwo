@@ -227,9 +227,12 @@ ul {
   /* background-image: url('./assets/images/hero_bg.jpg'); */
   /* background-size: cover; */
   /* padding-top: 30px; */
-  padding: 0px 0px 0px 100px;
+  padding: 0px 0px 75px 100px;
   background-color: ghostwhite;
 
+}
+.padding-top-50px{
+  padding-top: 50px;
 }
 
 @media screen and (max-width : 768px) {
@@ -444,9 +447,8 @@ ul {
 
 
 .slider-wrapper {
-  font-size: 46px;
+  font-size: 40px;
   color: var(--darkBlue);
-  margin-bottom: 14px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -488,7 +490,7 @@ ul {
 }
 @media screen and (max-width : 1099px) {
   .slider-wrapper{
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 @media screen and (max-width : 799px) {

@@ -1,12 +1,12 @@
 import React from 'react';
-import hero_ob from '../assets/images/V2-Web.m4v';
+import hero_ob from '../assets/images/bg-video3.m4v';
 
 const Hero = () => {
     return (
         <div className="hero">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12 col-md-12 col-lg-6">
+                    <div className="col-12 col-md-12 col-lg-5 padding-top-50px">
                         <h2>Lorem ipsum dolor sit amet</h2>
                         <div className="slider-wrapper">
                             Need for End to End
@@ -22,7 +22,7 @@ const Hero = () => {
                             <a href="/contact" className="btn_stylish">Know More</a>
                         </div>
                     </div>
-                    <div className="col-12 col-md-12 col-lg-6">
+                    <div className="col-12 col-md-12 col-lg-7 px-lg-0 px-md-3">
                         <video src={hero_ob} autoPlay loop muted className='video_width'>
                             <source  type="video/mp4" />
                         </video>
