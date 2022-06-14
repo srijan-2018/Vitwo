@@ -445,9 +445,8 @@ ul {
   height: 100px;
 }
 
-
 .slider-wrapper {
-  font-size: 40px;
+  font-size: 36px;
   color: var(--darkBlue);
   font-weight: bold;
   text-transform: uppercase;
@@ -482,7 +481,7 @@ ul {
 }
 @media screen and (max-width : 1299px) {
   .slider-wrapper{
-    font-size: 36px;
+    font-size: 30px;
   }
   .slider{
     height: 55px;
